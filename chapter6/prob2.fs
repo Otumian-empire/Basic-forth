@@ -9,7 +9,7 @@
 
 
 \ using local variables
-: BOX (width height -- )
+: BOX ( width height -- )
 	{ weight height }
 	CR
 	height 0 DO 
